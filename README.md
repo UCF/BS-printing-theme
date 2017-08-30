@@ -1,5 +1,6 @@
 # Business Services Printing WordPress theme
 
+BUILD
 WordPress theme for printing.ucf.edu, created by Mike Setzer, maintained by Business Services.
 This theme is built around Advanced Custom Fields.
 
