@@ -1,0 +1,218 @@
+
+@import url(//fonts.googleapis.com/css?family=Raleway:500,600,700);
+
+
+.style1 {font-family: inherit}
+.style3 {color: #660000; font-weight:bold;}
+.style6 {
+	color: #000000;
+	font-family: inherit;
+}
+.style10 {color: #000000}
+.style99 {font-size:14px; color:#000; text-align: justify;}
+
+.rightBox {
+	background-color: #fff;
+	opacity: .75;
+    padding: 20px;
+	width: 279px;
+	height: 260px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 590px;
+	border-top-right-radius: 20px;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+.rightBoxCopy {
+    color: #000000;
+    font-size: 14px;
+    height: 260px;
+    letter-spacing: 0.5px;
+    opacity: 1;
+    overflow: hidden;
+    padding: 20px;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    top: 0;
+    width: 280px;
+}
+.rightBoxCopy h4 {
+	font-weight: 500;
+}
+
+.rightBoxBottom {
+	background-color: #09c;
+	border-bottom-right-radius: 20px;
+	color: #fff;
+	float: left;
+	font-size: 13px;
+	height: 340px;
+	line-height: 18px;
+	overflow: hidden;
+	margin-top: -10px;
+	/* padding: 23px; */
+	text-align: left;
+	width: 320px;
+}
+
+.rightBoxBottom h3 {
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: .5px;
+	line-height: normal;
+	text-align: left;	
+}
+
+#imageBox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 950px;
+	border-top-right-radius: 20px;	
+}
+
+#imageBox img {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#main_content2 {
+	background-color: #FFf;
+	float: left;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	height: 309px;
+	margin-left: 20px;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 40px;
+	padding-top: 30px;   
+	width: 519px;
+	font-weight: 400;
+	color: #000;
+	border-bottom-left-radius: 20px;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+#main_content2 > p {
+	line-height: 18px;
+	padding-bottom: 10px;
+	text-align: justify;	
+}
+
+#main_content2 h4 {
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 10px 0 5px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#focusBox {
+	width: 100%;
+	height: 330px;
+	position: relative;
+	top: 20px;
+	left: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+.frontNav {
+	background-color: #fff;
+	padding: 3px 7px;
+	text-transform: uppercase;
+	color: #666;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-align: center;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+}
+
+.frontNav:hover {
+	background-color: #09c;
+	color: #fff;
+}
+
+#copy2 {
+	display: none;
+}
+
+div#slider ul li {
+	width: 281px;
+	height: 281px;
+}
+
+.fsc {
+	padding: 6px 20px 20px;
+}
+
+.fsc h3 {
+	border-top: 1px solid #f7f7f7;
+	margin-bottom: 12px;
+	padding-top: 10px;
+}
+
+.fsc p {
+	line-height: 16px;
+}
+
+/* Holdin' it together with bubblegum and wishes until the new site is ready */
+
+	.header { padding-bottom: 10px; text-align: left; }
+	.header > h1 { font-family: 'Raleway', sans-serif; font-size: 36px; font-weight: 700; margin: 0; padding: 20px 0; }
+	
+	.main { padding-bottom: 20px; }
+	
+	#global_nav li { margin: 0 6px 0 0; padding: 0 6px 0 0; }
+	#global_nav li > a { font-family: 'Raleway', sans-serif; font-weight: 600; margin: 0 6px; }
+	#global_nav li > a:hover, #global_nav li > a:focus { border-bottom: 2px dotted; }
+	
+	.focusBox-holder { position: relative; }
+	#focusBox { height: auto; }
+	#imageBox { position: relative; }
+	#slider { position: relative; z-index: 2; }
+	.rightBoxCopy:after { background-color: #000; border-top-right-radius: 18px; content: ""; filter:alpha(opacity=50); height: 300px; opacity: 0.5; position: absolute; right: 0; top: 0; width: 320px; z-index: 0; }
+	.holderer { height: 160px; padding: 20px; position: relative; }
+	.holderer:hover, .holderer:focus { background-color: #d26e35; }
+	.item-image { float: left; margin-left: 10%; text-align: center; width: 40%; }
+	.item-image:last-child { margin-left: 0; }
+
+	.star { background-color: purple; right: 6px; top: 0; }	
+	.star:before { background-color: blue; content: ""; transform: rotate(30deg); -webkit-transform: rotate(30deg); -moz-transform: rotate(30deg); -ms-transform: rotate(30deg); }
+	.star:after { background-color: green; content: ""; transform: rotate(15deg); -webkit-transform: rotate(15deg); -moz-transform: rotate(15deg); -ms-transform: rotate(15deg); }
+	.starburst { background-color: yellow; color: white; transform: rotate(45deg); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); }
+	.starburst:before { background-color: orange; content: ""; transform: rotate(-60deg); -webkit-transform: rotate(-60deg); -moz-transform: rotate(-60deg); -ms-transform: rotate(-60deg); }
+	.starburst:after { background-color: red; content: ""; transform: rotate(-75deg); -webkit-transform: rotate(-75deg); -moz-transform: rotate(-75deg); -ms-transform: rotate(-75deg); }
+	
+	.star { background-color: #b20000; float: right; height: 40px; margin-left: 20px; position: relative; width: 40px; }
+	.starburst, .star:before, .starburst:before, .star:after, .starburst:after { background-color: #b20000; height: 40px; position: absolute; width: 40px; }
+	.starburst, .star:before, .starburst:before, .star:after, .starburst:after { right: 0; top: 0; }
+
+	.centerer { display: table; height: 40px; left: 0; position: absolute; top: 0; width: 40px; z-index: 100; }
+	.centerer p { color: #fff; display: table-cell; font-family: Georgia, serif; font-size: 14px; text-align: center; vertical-align: middle; }
+	
+	.footerer { border-top: 1px ridge #ccc; font-family: Helvetica, Arial, sans-serif; font-size: 12px; line-height: 14px; padding-top: 20px; text-align: left; }
+	.footerer a { font-weight: 600; }
+
+	.section { float: left; padding-left: 20px; }
+	.section > p { line-height: normal; margin: 0; padding: 0; }
+	.section > p:first-child { padding-top: 10px; }
+	.section > img { max-width: 100%; }
+	.logo { padding-left: 80px; }
+	.copyright { padding-left: 0; padding-right: 20px; width: 240px; }
+	.copyright > p { text-align: right; }
+	.location { width: 260px; }
+	.phones { float: left; margin-right: 40px; text-align: right; width: 140px; }
+
